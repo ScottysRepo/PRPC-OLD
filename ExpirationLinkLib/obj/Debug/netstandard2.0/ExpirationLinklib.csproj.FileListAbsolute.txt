@@ -1,0 +1,9 @@
+D:\PRPC\ExpirationLinkLib\bin\Debug\netstandard2.0\ExpirationLinklib.deps.json
+D:\PRPC\ExpirationLinkLib\bin\Debug\netstandard2.0\ExpirationLinklib.dll
+D:\PRPC\ExpirationLinkLib\bin\Debug\netstandard2.0\ExpirationLinklib.pdb
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.csprojAssemblyReference.cache
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.csproj.CoreCompileInputs.cache
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.AssemblyInfoInputs.cache
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.AssemblyInfo.cs
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.dll
+D:\PRPC\ExpirationLinkLib\obj\Debug\netstandard2.0\ExpirationLinklib.pdb
