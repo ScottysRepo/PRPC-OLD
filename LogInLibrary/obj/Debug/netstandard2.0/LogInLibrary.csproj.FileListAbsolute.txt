@@ -1,0 +1,9 @@
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\bin\Debug\netstandard2.0\LogInLibrary.deps.json
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\bin\Debug\netstandard2.0\LogInLibrary.dll
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\bin\Debug\netstandard2.0\LogInLibrary.pdb
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.AssemblyInfoInputs.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.AssemblyInfo.cs
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.dll
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\LogInLibrary\obj\Debug\netstandard2.0\LogInLibrary.pdb
