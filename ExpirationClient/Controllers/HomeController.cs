@@ -8,6 +8,7 @@ using ExpirationClient.Models;
 
 namespace ExpirationClient.Controllers
 {
+    [RequireHttps]
     public class HomeController : Controller
     {
         public IActionResult Index()

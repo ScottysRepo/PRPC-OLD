@@ -11,7 +11,7 @@ using System.Security.Claims;
 namespace PRPC_CIDM4390.Models
 {
 
-    public class Register
+    public class RegisterViewModel
     {
 
         [Required()]
