@@ -1,0 +1,11 @@
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.deps.json
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.runtimeconfig.json
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.runtimeconfig.dev.json
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.dll
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.pdb
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csprojAssemblyReference.cache
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csproj.CoreCompileInputs.cache
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyInfoInputs.cache
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyInfo.cs
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.dll
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.pdb

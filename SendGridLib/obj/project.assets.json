@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jv954091\\.nuget\\packages\\": {},
+    "C:\\Users\\troyr\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj",
-      "projectName": "smsverifylibrary",
-      "projectPath": "C:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj",
-      "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
-      "outputPath": "C:\\PRPC\\PRPC\\smsverifylibrary\\obj\\",
+      "projectUniqueName": "D:\\SendGrid\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "projectName": "SendGridLib",
+      "projectPath": "D:\\SendGrid\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "packagesPath": "C:\\Users\\troyr\\.nuget\\packages\\",
+      "outputPath": "D:\\SendGrid\\PRPC\\SendGridLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jv954091\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\troyr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
