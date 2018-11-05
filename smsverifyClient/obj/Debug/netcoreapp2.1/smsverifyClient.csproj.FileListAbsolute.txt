@@ -1,0 +1,4 @@
+C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.csprojAssemblyReference.cache
+C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.csproj.CoreCompileInputs.cache
+C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.AssemblyInfoInputs.cache
+C:\PRPC\PRPC\smsverifyClient\obj\Debug\netcoreapp2.1\smsverifyClient.AssemblyInfo.cs
