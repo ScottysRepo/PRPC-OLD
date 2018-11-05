@@ -2,3 +2,8 @@ D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssembly
 D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
 D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
 D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+D:\SendGrid\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
+D:\SendGrid\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
+D:\SendGrid\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
+D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+D:\SendGrid\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

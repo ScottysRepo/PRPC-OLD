@@ -1,0 +1,27 @@
+{
+    "personalizations": [
+      {
+        "to": [
+          {
+            "email": "troyreeves2@gmail.com",
+            "name": "John Doe"
+          }
+        ],
+        "subject": "Email Verification"
+      }
+    ],
+    "from": {
+      "email": "prpc@example.com",
+      "name": "Sam Smith"
+    },
+    "reply_to": {
+      "email": "sam.smith@example.com",
+      "name": "Sam Smith"
+    },
+    "content": [
+      {
+        "type": "text/plain",
+        "value": "Please Click Link Below"
+      }
+    ]
+}

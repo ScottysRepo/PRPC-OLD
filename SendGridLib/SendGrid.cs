@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace SendGridLib
 {
-     interface ISMTP
+    interface ISMTP
     {
-       Execute(msg);
+       Execute(msg t);
     }
-     public class SendGrid : ISMTP
+     public class SendGrid : ISMTP 
     {
         private static void Main()
         {
             Execute().Wait();
         }
-    public async Task Execute()
+        static async Task Execute()
         {
             var apiKey = System.Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
-            var client = new SendGridClient(apiKey);
-            var msg = new SendGridMessage();
-            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("test@example.com", "Example User");
             var subject = "Verification Email";
@@ -30,8 +27,8 @@ namespace SendGridLib
             var htmlContent = "<strong>Please click on the link</strong>";
             var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
             var response = await client.SendEmailAsync(msg);
-        
     }
-
+    
 }
 }
+    

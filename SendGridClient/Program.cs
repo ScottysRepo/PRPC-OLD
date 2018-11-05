@@ -1,12 +1,14 @@
 ﻿using System;
+using SendGridLib;
 
-namespace SendGridClient
+namespace SMTPClient
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SendGrid SMTP = new SendGrid();
+            Console.WriteLine("Hello World");
         }
     }
 }
