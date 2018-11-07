@@ -1,0 +1,6 @@
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.csproj.CoreCompileInputs.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.RazorAssemblyInfo.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.RazorAssemblyInfo.cs
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.AssemblyInfoInputs.cache
+C:\Users\Rebecca Vengen\Desktop\4390\PRPC\obj\Debug\netcoreapp2.1\PRPC.AssemblyInfo.cs

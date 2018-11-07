@@ -8,6 +8,9 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 
+using LogInClient;
+using LogInLibrary;
+
 namespace LogInClient.Models
 {
 

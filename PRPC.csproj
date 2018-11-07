@@ -1,3 +1,19 @@
+<!--
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  
+
+</Project>
+-->
+<!--The below is from Jacob's csproj from first code (minus the twilio stuff -->
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
@@ -5,7 +21,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="dotenv.net" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" />
+     
+  </ItemGroup>
+
+  <ItemGroup> 
+
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+
   </ItemGroup>
 
 </Project>
