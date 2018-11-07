@@ -9,3 +9,6 @@ D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyI
 D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyInfo.cs
 D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.dll
 D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.pdb
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridLib.dll
+D:\SendGrid\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridLib.pdb
+D:\SendGrid\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csproj.CopyComplete

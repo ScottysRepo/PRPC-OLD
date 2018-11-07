@@ -7,8 +7,9 @@ namespace SMTPClient
     {
         static void Main(string[] args)
         {
-            SendGrid SMTP = new SendGrid();
-            Console.WriteLine("Hello World");
+            EmailConf SMTP = new EmailConf();
+            
+            
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using SendGrid.Helpers.Mail;
+﻿using SendGrid.Helpers.Mail;
 using SendGrid;
 using System.Threading.Tasks;
 
@@ -8,27 +7,73 @@ namespace SendGridLib
 {
     interface ISMTP
     {
-       Execute(msg t);
-    }
-     public class SendGrid : ISMTP 
+        string EmailConfirmation (string ConfSent);
+    }  
+     public class EmailConf : ISMTP 
     {
-        private static void Main()
+        public string EmailConfirmation(string ConfSent)
         {
-            Execute().Wait();
+            private readonly SendGridClient _client;
+
+            public EmailConf()
+            {
+            // Retrieve the API key from an appSettings variable from the web.config
+                var apiKey = System.Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
+
+            // Initialize the SendGrid client
+                _client = new SendGridClient(apiKey);
+            }
+
+            public async Task<Response> Send(EmailMessageInfo messageInfo)
+            {
+            // Prepare the SendGrid email message
+                var sendgridMessage = new SendGridMessage
+                {
+                    From = new EmailAddress(messageInfo.FromEmailAddress),
+                    Subject = messageInfo.EmailSubject,
+                    HtmlContent = messageInfo.EmailBody
+                };
+
+            var response = await _client.SendEmailAsync(sendgridMessage);
+
+            return response;
+            }
         }
-        static async Task Execute()
-        {
-            var apiKey = System.Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
-            var client = new SendGridClient(apiKey);
-            var from = new EmailAddress("test@example.com", "Example User");
-            var subject = "Verification Email";
-            var to = new EmailAddress();
-            var plainTextContent = "Please click on the link";
-            var htmlContent = "<strong>Please click on the link</strong>";
-            var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
-            var response = await client.SendEmailAsync(msg);
+           
     }
-    
 }
-}
+
     
+            
+        
+    
+
+
+
+
+
+        /* public string EmailConfirmation(string ConfSent)
+        {
+            void Main()
+            {
+                Execute().Wait();
+            }
+
+            async Task Execute()
+            {
+            
+            var apiKey = System.Environment.GetEnvironmentVariable("SENDGRID_APIKEY");
+            var client = new SendGridClient(apiKey);
+            var msg = new SendGridMessage()
+            {
+                From = new EmailAddress("test@example.com", "DX Team"),
+                Subject = "Hello World from the SendGrid CSharp SDK!",
+                PlainTextContent = "Hello, Email!",
+                HtmlContent = "<strong>Hello, Email!</strong>"
+            };
+            msg.AddTo(new EmailAddress("troyreeves2@gmail.com", "Test User"));
+            var response = await client.SendEmailAsync(msg);
+        }
+        }*/
+   
+ 
