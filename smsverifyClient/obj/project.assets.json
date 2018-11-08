@@ -1476,10 +1476,6 @@
       "smsverifylibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Twilio": "5.19.0",
-          "dotenv.net": "1.0.4"
-        },
         "compile": {
           "bin/placeholder/smsverifylibrary.dll": {}
         },
@@ -5214,6 +5210,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
+      "Twilio >= 5.19.0",
+      "dotenv.net >= 1.0.4",
       "smsverifylibrary >= 1.0.0"
     ]
   },
@@ -5224,11 +5222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRPC\\PRPC\\smsverifyClient\\smsverifyClient.csproj",
+      "projectUniqueName": "c:\\PRPC\\PRPC\\smsverifyClient\\smsverifyClient.csproj",
       "projectName": "smsverifyClient",
-      "projectPath": "C:\\PRPC\\PRPC\\smsverifyClient\\smsverifyClient.csproj",
+      "projectPath": "c:\\PRPC\\PRPC\\smsverifyClient\\smsverifyClient.csproj",
       "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
-      "outputPath": "C:\\PRPC\\PRPC\\smsverifyClient\\obj\\",
+      "outputPath": "c:\\PRPC\\PRPC\\smsverifyClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5245,8 +5243,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj": {
-              "projectPath": "C:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj"
+            "c:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj": {
+              "projectPath": "c:\\PRPC\\PRPC\\smsverifylibrary\\smsverifylibrary.csproj"
             }
           }
         }
@@ -5264,6 +5262,14 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Twilio": {
+            "target": "Package",
+            "version": "[5.19.0, )"
+          },
+          "dotenv.net": {
+            "target": "Package",
+            "version": "[1.0.4, )"
           }
         },
         "imports": [

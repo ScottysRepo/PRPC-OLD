@@ -2,11 +2,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\smsverifylibrary\smsverifylibrary.csproj" />
-  </ItemGroup>
-    <ItemGroup>
-    <PackageReference Include="Twilio" Version="5.19.0" />
+        <PackageReference Include="Twilio" Version="5.19.0" />
     <PackageReference Include="dotenv.net" Version="1.0.4" />
   </ItemGroup>
+
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>

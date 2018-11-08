@@ -1,39 +1,49 @@
 ﻿using System;
 using smsverifylibrary;
-
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
+using dotenv.net;
+using System.Threading.Tasks;
 namespace smsverifyClient
 {
-    class Program
+    class Program 
     {
-        public class TwilioSmS
-{
-    public string PhoneNumber = "8065498221";
-    void Main(string[] args)
-    {
-        //RecPhone is placeholder for the Model.Phone we will need to send to each phone that is registered
-        SendSms(PhoneNumber).Wait();
-        Console.Write("Press any key to continue.");
-        Console.ReadKey();
-    }
+        public static string PhoneNumber= "+18065498221";
+        public static string TwilioNumber = "+18064244476";
+        static void Main(string[] args)
+        {
 
-    async Task SendSms(string PhoneNumber)
-    {
-        // Need to figure out how to call those .env variables.
-        //const string accountSid = System.Environment.GetEnvironmentVariable(TWILIO_SID);
-        //const string authToken = System.Environment.GetEnvironmentVariable(TWILIO_AUTHTOKEN);
-        const string accountSid ="";
-        const string authToken = "";
+            DotEnv.Config();
 
-        TwilioClient.Init(accountSid, authToken);
+            // Find your Account Sid and Token at twilio.com/console
+            string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
+            string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
+            
+            Console.WriteLine($"auth token is: {authToken}");
+            Console.WriteLine($"accout_sid is: {accountSID}");
 
-        var message = await MessageResource.CreateAsync(
-            body: "Would you like to recieve text notifications? Please reply Yes or No.",
-            from: new Twilio.Types.PhoneNumber("+18064244476"),
-            to: new Twilio.Types.PhoneNumber(PhoneNumber)
-        );
+            Console.WriteLine($"Phone number is: {PhoneNumber}");
+            try
+            {
+                
+                TwilioClient.Init(accountSID, authToken);
+                
 
-        Console.WriteLine(message.Sid);
+                var message = MessageResource.Create(
+                    body: "This is the ship that made the Kessel Run in fourteen parsecs?",
+                    from: new Twilio.Types.PhoneNumber(TwilioNumber),
+                    to: new Twilio.Types.PhoneNumber(PhoneNumber)
+                );
+
+                Console.WriteLine(message.Sid);
+
+                Console.WriteLine(message.AccountSid);
+            }
+            catch(Exception exp)
+            {
+                Console.Error.WriteLine("Error:" + exp.Message + Environment.NewLine + " " + exp.StackTrace);
+            }
+        }
     }
 }
-    }
-}
+

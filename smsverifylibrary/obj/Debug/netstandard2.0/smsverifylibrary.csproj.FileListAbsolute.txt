@@ -7,3 +7,12 @@ C:\PRPC\PRPC\smsverifylibrary\bin\Debug\netstandard2.0\smsverifylibrary.dll
 C:\PRPC\PRPC\smsverifylibrary\bin\Debug\netstandard2.0\smsverifylibrary.pdb
 C:\PRPC\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.dll
 C:\PRPC\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.pdb
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.csprojAssemblyReference.cache
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.csproj.CoreCompileInputs.cache
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.AssemblyInfoInputs.cache
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.AssemblyInfo.cs
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.dll
+C:\4390\PRPC\smsverifylibrary\obj\Debug\netstandard2.0\smsverifylibrary.pdb
+C:\4390\PRPC\smsverifylibrary\bin\Debug\netstandard2.0\smsverifylibrary.deps.json
+C:\4390\PRPC\smsverifylibrary\bin\Debug\netstandard2.0\smsverifylibrary.dll
+C:\4390\PRPC\smsverifylibrary\bin\Debug\netstandard2.0\smsverifylibrary.pdb

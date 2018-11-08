@@ -1,7 +1,4 @@
 ﻿using System;
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
-using dotenv;
 using System.Threading.Tasks;
 
 namespace smsverifylibrary
